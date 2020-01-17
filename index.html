@@ -111,7 +111,7 @@
           },
           onEachFeature: function (feature, layer) {
             layer.bindPopup(
-              '<h3>' + feature.properties.Property_O + '</h3>'
+              '<h3>' + feature.properties.Property_O + '</h3>' + '<br>' + '<h4>' + feature.properties.Acreage + ' Acres' + '</h4>'
             )},
           });
 
